@@ -1,0 +1,34 @@
+{
+  "name": "use-css-variables",
+  "version": "1.0.0",
+  "description": "React hook designed to easily fetch and list all CSS custom properties (variables) applied to a specified element",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peter-stuhlmann/use-css-variables"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "css",
+    "variables"
+  ],
+  "author": "Peter R. Stuhlmann (https://peter-stuhlmann-webentwicklung.de)",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
